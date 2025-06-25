@@ -1,0 +1,36 @@
+.box1{
+    width:200px;
+    height:200px;
+    border: 1px solid red;
+    padding: 35px;
+    margin:25px;
+    box-sizing:content-box;
+}
+
+.box2{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    padding: 35px;
+    margin:25px;
+    box-sizing:border-box;
+}
+
+.box3{
+   width:200px;
+    height:200px;
+    border: 1px solid black;
+    padding: 35px;
+    margin:25px;
+    box-sizing:border-box;
+    border-radius:50%;
+} 
+.box4{
+    width:200px;
+    height:200px;
+    border-top:2px solid black;
+    border-right:3px dotted red;
+    border-left:4px groove green;
+    border-bottom:1px double blue;
+    margin:auto;
+}
